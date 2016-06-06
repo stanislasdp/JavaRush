@@ -40,6 +40,7 @@ public class Solution
         }
 
         String[] array = list.toArray(new String[list.size()]);
+
         sort(array);
 
         for (String x : array)
